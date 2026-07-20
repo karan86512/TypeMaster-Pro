@@ -12,4 +12,4 @@ Allow: /
 
 
 
-Sitemap: https://your-domain.com/sitemap.xml
+Sitemap: https://karan86512.github.io/TypeMaster-Pro/sitemap.xml
