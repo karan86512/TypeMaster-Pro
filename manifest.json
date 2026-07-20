@@ -1,0 +1,22 @@
+{
+    "name": "TypeMaster Pro",
+    "short_name": "TypeMaster",
+    "description": "Premium typing speed test platform with WPM tracking, accuracy analysis, achievements and leaderboard.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#030712",
+    "theme_color": "#00E5FF",
+
+    "icons": [
+        {
+            "src": "assets/images/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/images/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

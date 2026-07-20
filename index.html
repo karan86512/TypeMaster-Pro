@@ -1,0 +1,1272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>
+        TypeMaster Pro | Premium Typing Speed Test
+    </title>
+
+    <meta name="description"
+        content="Improve your typing speed with beautiful animations, live WPM tracking, accuracy statistics, achievements and leaderboard.">
+
+    <meta name="keywords"
+        content="Typing Test, WPM, Typing Speed, Monkeytype, TypeMaster">
+
+    <meta name="author"
+        content="Karan More">
+
+
+    <meta name="theme-color"
+        content="#030712">
+
+    <link rel="icon"
+        href="assets/images/favicon.png">
+
+
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+
+    <link rel="stylesheet"
+        href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
+    <link rel="stylesheet"
+        href="style.css">
+
+        <link rel="manifest" href="manifest.json">
+
+</head>
+
+<body>
+
+
+<div id="loader">
+
+    <div class="loader-ring"></div>
+
+    <h2>TypeMaster Pro</h2>
+
+</div>
+
+
+<div class="cursor-glow"></div>
+
+
+<div class="aurora-bg">
+
+    <span class="orb orb-1"></span>
+
+    <span class="orb orb-2"></span>
+
+    <span class="orb orb-3"></span>
+
+    <span class="orb orb-4"></span>
+
+</div>
+
+
+<header class="header">
+
+    <div class="container">
+
+        <nav class="navbar">
+
+            <!-- Logo -->
+
+            <a href="#"
+                class="logo">
+
+                <i class="fa-solid fa-keyboard"></i>
+
+                <span>
+
+                    TypeMaster
+
+                </span>
+
+            </a>
+
+
+            <!-- Menu -->
+
+            <ul class="nav-menu">
+
+                <li>
+
+                    <a href="#home">
+
+                        Home
+
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="#features">
+
+                        Features
+
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="#typing">
+
+                        Typing Test
+
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="#leaderboard">
+
+                        Leaderboard
+
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="#contact">
+
+                        Contact
+
+                    </a>
+
+                </li>
+
+            </ul>
+
+
+            <!-- Right -->
+
+            <div class="nav-actions">
+
+                <button
+                    id="themeToggle"
+                    class="theme-btn">
+
+                    <i class="fa-solid fa-moon"></i>
+
+                </button>
+
+                <button
+                    class="login-btn">
+
+                    Login
+
+                </button>
+
+                <button
+                    class="menu-toggle">
+
+                    <i class="fa-solid fa-bars"></i>
+
+                </button>
+                <button id="soundToggle" class="sound-btn">
+
+🔊 Sound ON
+
+</button>
+
+            </div>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<main>
+
+
+<section
+    class="hero"
+    id="home">
+
+<div class="container hero-container">
+
+<div class="hero-left">
+
+<div class="hero-badge">
+
+🔥 Trusted by 50,000+ Users
+
+</div>
+
+<h1>
+
+Master Your
+
+<span>
+
+Typing Speed
+
+</span>
+
+Like Never Before
+
+</h1>
+
+<p>
+
+Improve your typing speed with
+beautiful animations,
+real-time statistics,
+AI inspired interface,
+leaderboards,
+achievements,
+and detailed performance analytics.
+
+</p>
+
+
+<div class="hero-buttons">
+
+<button id="startBtn">
+
+Start Typing
+
+<i class="fa-solid fa-arrow-right"></i>
+
+</button>
+
+<button id="learnMore">
+
+Learn More
+
+</button>
+
+</div>
+
+
+<div class="hero-stats">
+
+<div>
+
+<h2>
+
+120+
+
+</h2>
+
+<span>
+
+Best WPM
+
+</span>
+
+</div>
+
+<div>
+
+<h2>
+
+98%
+
+</h2>
+
+<span>
+
+Accuracy
+
+</span>
+
+</div>
+
+<div>
+
+<h2>
+
+50K+
+
+</h2>
+
+<span>
+
+Users
+
+</span>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<div class="hero-right">
+
+<div class="typing-preview">
+
+<div class="preview-header">
+
+<div class="dot red"></div>
+
+<div class="dot yellow"></div>
+
+<div class="dot green"></div>
+
+</div>
+
+<div class="preview-body">
+
+<p>
+
+<span class="correct">
+The
+</span>
+
+<span class="correct">
+quick
+</span>
+
+<span class="active">
+brown
+</span>
+
+<span>
+fox
+</span>
+
+<span>
+jumps
+</span>
+
+<span>
+over
+</span>
+
+<span>
+the
+</span>
+
+<span>
+lazy
+</span>
+
+<span>
+dog.
+</span>
+
+</p>
+
+</div>
+
+<div class="preview-footer">
+
+<div>
+
+⚡
+
+120 WPM
+
+</div>
+
+<div>
+
+🎯
+
+98%
+
+</div>
+
+<div>
+
+❌
+
+2 Errors
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="trusted-section">
+
+    <div class="container">
+
+        <p class="trusted-title">
+
+            Trusted by developers, students and professionals
+
+        </p>
+
+        <div class="trusted-grid">
+
+            <div class="brand-card">
+
+                <i class="fa-brands fa-google"></i>
+
+                <span>Google</span>
+
+            </div>
+
+            <div class="brand-card">
+
+                <i class="fa-brands fa-microsoft"></i>
+
+                <span>Microsoft</span>
+
+            </div>
+
+            <div class="brand-card">
+
+                <i class="fa-brands fa-apple"></i>
+
+                <span>Apple</span>
+
+            </div>
+
+            <div class="brand-card">
+
+                <i class="fa-brands fa-github"></i>
+
+                <span>GitHub</span>
+
+            </div>
+
+            <div class="brand-card">
+
+                <i class="fa-brands fa-amazon"></i>
+
+                <span>Amazon</span>
+
+            </div>
+
+            <div class="brand-card">
+
+                <i class="fa-brands fa-discord"></i>
+
+                <span>Discord</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section
+class="features-section"
+id="features">
+
+<div class="container">
+
+<div class="section-heading">
+
+<span>
+
+Why Choose Us
+
+</span>
+
+<h2>
+
+Everything You Need To
+
+Master Typing
+
+</h2>
+
+<p>
+
+Practice faster, improve accuracy,
+track your progress and compete
+with the world's best typists.
+
+</p>
+
+</div>
+
+
+
+<div class="features-grid">
+
+
+<div class="feature-card">
+
+<i class="fa-solid fa-gauge-high"></i>
+
+<h3>
+
+Real Time WPM
+
+</h3>
+
+<p>
+
+Live speed calculation while typing.
+
+</p>
+
+</div>
+
+
+<div class="feature-card">
+
+<i class="fa-solid fa-bullseye"></i>
+
+<h3>
+
+High Accuracy
+
+</h3>
+
+<p>
+
+Advanced mistake detection system.
+
+</p>
+
+</div>
+
+
+<div class="feature-card">
+
+<i class="fa-solid fa-chart-line"></i>
+
+<h3>
+
+Performance Analytics
+
+</h3>
+
+<p>
+
+Track your typing improvements.
+
+</p>
+
+</div>
+
+
+<div class="feature-card">
+
+<i class="fa-solid fa-trophy"></i>
+
+<h3>
+
+Leaderboard
+
+</h3>
+
+<p>
+
+Compete with top players worldwide.
+
+</p>
+
+</div>
+
+
+<div class="feature-card">
+
+<i class="fa-solid fa-medal"></i>
+
+<h3>
+
+Achievements
+
+</h3>
+
+<p>
+
+Unlock badges while practicing.
+
+</p>
+
+</div>
+
+
+<div class="feature-card">
+
+<i class="fa-solid fa-keyboard"></i>
+
+<h3>
+
+Typing Modes
+
+</h3>
+
+<p>
+
+Words, Quotes, Numbers & Code.
+
+</p>
+
+</div>
+
+
+<div class="feature-card">
+
+<i class="fa-solid fa-moon"></i>
+
+<h3>
+
+Dark Mode
+
+</h3>
+
+<p>
+
+Eye-friendly premium interface.
+
+</p>
+
+</div>
+
+
+<div class="feature-card">
+
+<i class="fa-solid fa-mobile-screen"></i>
+
+<h3>
+
+Responsive
+
+</h3>
+
+<p>
+
+Perfect on desktop, tablet and mobile.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="stats-section">
+
+<div class="container">
+
+<div class="stats-grid">
+
+<div class="stat-card">
+
+<h2>
+
+50K+
+
+</h2>
+
+<p>
+
+Registered Users
+
+</p>
+
+</div>
+
+<div class="stat-card">
+
+<h2>
+
+5M+
+
+</h2>
+
+<p>
+
+Typing Tests
+
+</p>
+
+</div>
+
+<div class="stat-card">
+
+<h2>
+
+99%
+
+</h2>
+
+<p>
+
+User Satisfaction
+
+</p>
+
+</div>
+
+<div class="stat-card">
+
+<h2>
+
+180+
+
+</h2>
+
+<p>
+
+Countries
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="achievement-section" id="achievements">
+
+<div class="container">
+
+
+<div class="section-heading">
+
+<span>Rewards</span>
+
+<h2>Your Achievements</h2>
+
+</div>
+
+
+
+<div class="achievement-grid" id="achievementList">
+
+
+</div>
+
+
+
+</div>
+
+</section>
+
+<div class="scroll-indicator">
+
+<span>
+
+Scroll To Continue
+
+</span>
+
+<i class="fa-solid fa-angles-down"></i>
+
+</div>
+
+<section class="typing-section" id="typing">
+
+    <div class="container">
+
+        <!-- Section Heading -->
+
+        <div class="section-heading">
+
+            <span>Typing Test</span>
+
+            <h2>Challenge Your Typing Skills</h2>
+
+            <p>
+                Improve your speed, increase your accuracy and
+                break your own typing records.
+            </p>
+
+        </div>
+
+
+        <div class="typing-toolbar">
+
+            <div class="time-options">
+
+                <button class="time-btn active" data-time="15">15s</button>
+
+                <button class="time-btn" data-time="30">30s</button>
+
+                <button class="time-btn" data-time="60">60s</button>
+
+                <button class="time-btn" data-time="120">120s</button>
+
+            </div>
+
+
+            <div class="typing-options">
+
+                <select id="language">
+
+                    <option value="english">
+                        English
+                    </option>
+
+                    <option value="hindi">
+                        Hindi
+                    </option>
+
+                    <option value="marathi">
+                        Marathi
+                    </option>
+
+                </select>
+
+
+                <select id="mode">
+
+                    <option>
+                        Words
+                    </option>
+
+                    <option>
+                        Quotes
+                    </option>
+
+                    <option>
+                        Numbers
+                    </option>
+
+                    <option>
+                        Code
+                    </option>
+
+                </select>
+
+            </div>
+
+        </div>
+
+        <div class="typing-card">
+
+
+            <!-- Progress -->
+
+            <div class="typing-progress">
+
+                <div class="typing-progress-fill"></div>
+
+            </div>
+
+
+
+            <!-- Paragraph -->
+
+            <div id="paragraph" class="paragraph">
+
+                Loading paragraph...
+
+            </div>
+
+
+
+            <!-- Typing Area -->
+
+            <textarea
+                id="typingInput"
+                placeholder="Start typing here..."
+                spellcheck="false"
+                autocomplete="off">
+            </textarea>
+
+
+
+            <!-- Buttons -->
+
+            <div class="typing-buttons">
+
+                <button id="startBtn">
+
+                    <i class="fa-solid fa-play"></i>
+
+                    Start Test
+
+                </button>
+
+
+                <button id="restartBtn">
+
+                    <i class="fa-solid fa-rotate-right"></i>
+
+                    Restart
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="live-stats">
+<div class="live-card">
+    <h3 id="wpm">0</h3>
+    <span>WPM</span>
+</div>
+
+<div class="live-card">
+    <h3 id="accuracy">100%</h3>
+    <span>Accuracy</span>
+</div>
+
+<div class="live-card">
+    <h3 id="mistakes">0</h3>
+    <span>Mistakes</span>
+</div>
+
+<div class="live-card">
+    <h3 id="cpm">0</h3>
+    <span>CPM</span>
+</div>
+
+<div class="live-card">
+    <h3 id="timer">60</h3>
+    <span>Time</span>
+</div>
+</div>
+
+<section class="leaderboard-section" id="leaderboard">
+
+<div class="container">
+
+<div class="section-heading">
+
+<span>Ranking</span>
+
+<h2>Top Performers</h2>
+
+</div>
+
+
+<div class="leaderboard-card">
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Rank</th>
+
+<th>Name</th>
+
+<th>WPM</th>
+
+<th>Accuracy</th>
+
+</tr>
+
+</thead>
+
+
+<tbody id="leaderboardBody">
+
+</tbody>
+
+
+</table>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+<section class="analytics-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span>Analytics</span>
+
+            <h2>Your Performance</h2>
+
+        </div>
+
+        <div class="chart-card">
+
+            <canvas id="performanceChart"></canvas>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="testimonial-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span>Reviews</span>
+
+            <h2>What Users Say</h2>
+
+        </div>
+
+        <div class="testimonial-grid">
+
+            <div class="testimonial-card">
+
+                <p>
+                    "The cleanest typing website I have ever used."
+                </p>
+
+                <h4>- Alex</h4>
+
+            </div>
+
+            <div class="testimonial-card">
+
+                <p>
+                    "Amazing UI and very smooth experience."
+                </p>
+
+                <h4>- Sarah</h4>
+
+            </div>
+
+            <div class="testimonial-card">
+
+                <p>
+                    "Helped me improve my typing speed a lot."
+                </p>
+
+                <h4>- Daniel</h4>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="faq-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span>FAQ</span>
+
+            <h2>Frequently Asked Questions</h2>
+
+        </div>
+
+        <div class="faq-box">
+
+            <details>
+
+                <summary>How is WPM calculated?</summary>
+
+                <p>
+                    WPM is calculated using the standard
+                    5-character-per-word formula.
+                </p>
+
+            </details>
+
+            <details>
+
+                <summary>Does accuracy affect WPM?</summary>
+
+                <p>
+                    Accuracy does not directly reduce WPM,
+                    but mistakes are tracked separately.
+                </p>
+
+            </details>
+
+            <details>
+
+                <summary>Can I practice daily?</summary>
+
+                <p>
+                    Yes. Your best scores and history will
+                    be saved locally.
+                </p>
+
+            </details>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="newsletter-section">
+
+    <div class="container">
+
+        <div class="newsletter-box">
+
+            <h2>
+
+                Stay Updated
+
+            </h2>
+
+            <p>
+
+                Get updates about new typing modes and features.
+
+            </p>
+
+            <form>
+
+                <input
+                    type="email"
+                    placeholder="Enter your email">
+
+                <button>
+
+                    Subscribe
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<footer id="contact">
+
+    <div class="container">
+
+        <div class="footer-grid">
+
+            <div>
+
+                <h2>⌨ TypeMaster Pro</h2>
+
+                <p>
+
+                    Premium Typing Speed Test Platform
+
+                </p>
+
+            </div>
+
+            <div>
+
+                <h3>Quick Links</h3>
+
+                <ul>
+
+                    <li><a href="#home">Home</a></li>
+
+                    <li><a href="#typing">Typing Test</a></li>
+
+                    <li><a href="#leaderboard">Leaderboard</a></li>
+
+                </ul>
+
+            </div>
+
+            <div>
+
+                <h3>Follow</h3>
+
+                <div class="social-icons">
+
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+
+            © 2026 TypeMaster Pro • All Rights Reserved.
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+
+<!-- Scroll To Top -->
+
+<button id="scrollTop">
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
+</main>
+
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script src="paragraphs.js"></script>
+<script src="script.js"></script>
+
+<script>
+
+AOS.init({
+
+duration:1000,
+
+once:true
+
+});
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</body>
+
+</html>
