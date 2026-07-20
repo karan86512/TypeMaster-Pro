@@ -2633,7 +2633,6 @@ font-size:28px;
 
 }
 
-/* Achievement Cards */
 
 
 .achievement-grid{
@@ -2694,7 +2693,6 @@ grid-template-columns:1fr;
 
 }
 
-/* Achievement Cards */
 
 
 .achievement-grid{
@@ -2752,5 +2750,41 @@ margin-bottom:15px;
 grid-template-columns:1fr;
 
 }
+
+}
+
+
+
+.empty-badge{
+
+    width:100%;
+
+    padding:40px;
+
+    text-align:center;
+
+    background:rgba(255,255,255,0.08);
+
+    border:1px solid rgba(255,255,255,0.12);
+
+    border-radius:25px;
+
+    backdrop-filter:blur(20px);
+
+    color:var(--muted);
+
+    font-size:18px;
+
+    animation:fadeIn 0.8s ease;
+
+}
+
+
+
+.empty-badge:hover{
+
+    transform:translateY(-5px);
+
+    border-color:rgba(0,229,255,0.5);
 
 }
