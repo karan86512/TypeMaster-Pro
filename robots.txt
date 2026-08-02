@@ -12,4 +12,4 @@ Allow: /
 
 
 
-Sitemap: https://karan86512.github.io/TypeMaster-Pro/sitemap.xml
+Sitemap: https://typemaster-pro.karanmorehub.com/sitemap.xml
